@@ -9,6 +9,9 @@ npm run dev
 # or
 yarn dev
 ```
+## Then install dependencies
+
+        npm i tailwind css react-icons autoprefixer @fullhuman/postcss-purgecss
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
