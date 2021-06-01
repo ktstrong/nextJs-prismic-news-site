@@ -25,6 +25,13 @@ export default function Footer(props) {
                 <h1>Membership</h1>
                 <h1>FAQ</h1>
                
+            </div>
+            <div className="my-10 text-sm max-w-2xl" >
+                Channel 21™ is a open-media initiative by Xmedia Gcorp, US ® and is registered as not for profit organisation. All rights reserved. &copy; 
+                &nbsp; {
+                    new Date().getFullYear()
+                }
+
 
 
             </div>
