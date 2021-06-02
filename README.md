@@ -13,6 +13,13 @@ yarn dev
 
         npm i tailwind css react-icons autoprefixer @fullhuman/postcss-purgecss
         npm i postcss-import
+## Then install dependencies to comnect Prismic cms to our app
+
+        npm i prismic-javascript prismic-reactjs
+
+
+ To connect front end to headless cms create a config file.
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
