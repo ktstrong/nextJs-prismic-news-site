@@ -1,5 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+This JamStack app uses Prismic headless CMS and Tailwind CSS.
+
 ## Getting Started
 
 First, run the development server:
@@ -9,17 +11,17 @@ npm run dev
 # or
 yarn dev
 ```
+
 ## Then install dependencies
 
         npm i tailwind css react-icons autoprefixer @fullhuman/postcss-purgecss
         npm i postcss-import
-## Then install dependencies to comnect Prismic cms to our app
+
+## Then install dependencies to connect Prismic cms to our app
 
         npm i prismic-javascript prismic-reactjs
 
-
- To connect front end to headless cms create a config file.
-
+To connect front end to headless cms create a config file.
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
