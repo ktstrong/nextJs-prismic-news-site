@@ -1,28 +1,53 @@
-import {GiAstronautHelmet} from "react-icons/gi";
+import {FaPlay} from "react-icons/fa";
+import {GrFacebook, GrInstagram, GrSnapchat, GrSpotify, GrTwitter, GrYoutube} from "react-icons/gr";
+
 
 import Link from "next/link";
 
 
 export default function Footer(props) {
     return (
-        <div className="bg-footGray text-white text-xl py-10 px-24 flex flex-col">
-            <div>
-              
+        <div className=" grid justify-items-center bg-footGray text-white text-xl py-10 px-24 text-center">
+            <div className="transform -skew-y-6 leading-6 font-semibold text-3xl " >
+                -----
+              <br></br>
+              Stay in 
+              <br></br>
+              the loop
+              <br></br>
+
+              ------
+            </div>
+                <div className="my-8 w-1/2 text-sm font-semibold  max-w-2xl" >
+                Sign me up to Nando's emails for access to exclusive events and Extra Hot competitions!
+
             </div>
      
+                   <div className="w-1/2 text-sm flex items-center " >
+                    
+                    <input type="text" placeholder="Pop your email address in here" className="bg-white text-center text-black border-white outline-none h-8 w-full" />
+		            <FaPlay  className="-ml-7 text-3xl  cursor-pointer text-pink bg-yellow p-1.5" />
 
-                   <div className="w-1/2 text-sm " >
-                    {/* border-b means borer at the bottom, w-fll means width full (container) */}
-                    <input type="text" placeholder="Pop your email address in here" className="bg-white text-center text-black w-full border-white outline-none h-8 justify-items-center" />
                 </div>
-                
-            <div className="my-10 text-sm max-w-2xl" >
-                Channel 21™ is a open-media initiative by Xmedia Gcorp, US ® and is registered as not for profit organisation. All rights reserved. &copy; 
-                &nbsp; {
+
+
+
+
+                <div className="p-5 inline-flex flex-row justify-between"  >
+                    <GrFacebook className="m-4 cursor-pointer hover:text-pink"/>
+                    <GrTwitter className="m-4 cursor-pointer hover:text-pink"/>
+                    <GrInstagram className="m-4 cursor-pointer hover:text-pink"/>
+                    <GrSnapchat className="m-4 cursor-pointer hover:text-pink"/>
+                    <GrYoutube className="m-4 cursor-pointer hover:text-pink"/>
+                    <GrSpotify className="m-4 cursor-pointer hover:text-pink"/>
+
+                </div>
+
+        
+            <div className="mt-10 text-xs "  >
+                &copy;  Nando's &nbsp; {
                     new Date().getFullYear()
-                }
-
-
+                } | Privacy Policy
 
             </div>
         </div>

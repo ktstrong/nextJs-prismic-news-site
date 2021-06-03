@@ -10,7 +10,7 @@ export default function Layout( {children} ) {
         <Navbar/>
             { children }
             <div>Watch your feet an ye trotters, careful now</div>
-        <FooterNav/>
+        <FooterNav/> 
         <NandosFooter/>
         </div>
     );

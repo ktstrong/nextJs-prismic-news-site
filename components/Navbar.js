@@ -15,9 +15,9 @@ export default function Navbar(props) {
                 </Link>
 {/* search bar */}
                 <div className="flex items-center w-1/3 text-lg">
-                    {/* border-b means borer at the bottom, w-fll means width full (container) */}
+                  
                     <input type="text" className="bg-transparent border-b w-full border-white outline-none"/>
-                    <FiSearch  className="-ml-8 text-2xl hover:text-red-600 cursor-pointer" />
+                    <FiSearch className="-ml-8 text-2xl hover:text-red-600 cursor-pointer" />
                 </div>
 {/* user and notification icons    */}
                 <div className="flex items-center text-2xl">
