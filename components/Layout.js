@@ -9,7 +9,6 @@ export default function Layout( {children} ) {
        <div>
         <Navbar/>
             { children }
-            <div>Watch your feet an ye trotters, careful now</div>
         <FooterNav/> 
         <NandosFooter/>
         </div>

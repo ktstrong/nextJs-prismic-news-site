@@ -9,8 +9,8 @@ module.exports = {
       black: "#000",
       transparent: "transparent",
       yellow: "#f0ff00",
-      pink: "#fe019a"
-
+      pink: "#fe019a",
+      darkPink : "#d11d53"
     },
   },
   variants: {
