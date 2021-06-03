@@ -17,33 +17,34 @@ export default function Navbar(props) {
                 <div className="flex items-center w-1/3 text-lg">
                   
                     <input type="text" className="bg-transparent border-b w-full border-white outline-none"/>
-                    <FiSearch className="-ml-8 text-2xl hover:text-red-600 cursor-pointer" />
+                    <FiSearch className="-ml-8 text-2xl hover:text-darkPink cursor-pointer" />
                 </div>
 {/* user and notification icons    */}
                 <div className="flex items-center text-2xl">
-                    <AiOutlineBell className="mr-2 cursor-pointer hover:text-red-600" />
-                    <AiOutlineUser className="mr-2 cursor-pointer hover:text-red-600" />
+                    <AiOutlineBell className="mr-2 cursor-pointer hover:text-darkPink" />
+                    <AiOutlineUser className="mr-2 cursor-pointer hover:text-darkPink" />
                 </div>
  
             </div>
 
             <div className="px-2 md: px-24 bg-white flex border-b border-black " > 
                 <Link href="/" >
-                    <a className="mr-10 text-xl mt-5 px-5 border-b-2 border-transparent hover:border-black"> Home
+                    <a className="mr-10 text-xl mt-5 px-5 border-b-4 border-transparent hover:border-black">Home
                     </a>
                 </Link>
-                <Link href="/politics" >
-                    <a className="mr-10 text-xl mt-5 px-5 border-b-2 border-transparent hover:border-black"> Politics
+                  <Link href="/business" >
+                    <a className="mr-10 text-xl mt-5 px-5 border-b-4 border-transparent hover:border-black">Business 
                     </a>
                 </Link>
-                <Link href="/sports" >
-                    <a className="mr-10 text-xl mt-5 px-5 border-b-2 border-transparent hover:border-black"> Sports
+                <Link href="/environmental" >
+                    <a className="mr-10 text-xl mt-5 px-5 border-b-4 border-transparent hover:border-black">Environmental
                     </a>
                 </Link>
-                <Link href="/business" >
-                    <a className="mr-10 text-xl mt-5 px-5 border-b-2 border-transparent hover:border-black"> Business 
+                <Link href="/technology" >
+                    <a className="mr-10 text-xl mt-5 px-5 border-b-4 border-transparent hover:border-black">Technology
                     </a>
                 </Link>
+              
             </div>
         </div>
     );

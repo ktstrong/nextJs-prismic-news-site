@@ -6,19 +6,19 @@ import Head from "next/head";
 import { Client } from "../prismic-configuration";
 import Link from "next/link";
 
-export default function Business({articles, trending}) {
+export default function Environmental({articles, trending}) {
     return (
        
             <div>
                 <Head>
-                    <title>21 | Business </title>
+                    <title>21 | Environment </title>
                     <link rel="icon" href="/favicon.ico" />
                 </Head>
           
              <Layout>
             <h1 className="text-3xl uppercase font-extrabold opacity-50 mt-10 ml-14">
             {" "}
-            the world of Business
+            the environmental world 
             </h1>
 
             <div className="flex">
@@ -72,12 +72,11 @@ export default function Business({articles, trending}) {
 }
 
 
-
 // this function is called everytime a request/refresh is made
 
 export async function getServerSideProps() {
   const articles = await Client().query(
-    Prismic.Predicates.at("document.tags", ["business"])
+    Prismic.Predicates.at("document.tags", ["environmental"])
   );
   const trending = await Client().query(
     Prismic.Predicates.at("document.type", "trending")
